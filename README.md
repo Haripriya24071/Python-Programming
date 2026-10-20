@@ -2,22 +2,16 @@
 
 <img src="./header.svg" width="100%" alt="R HARI PRIYA Header" />
 
-<br/>
-
-<a href="https://github.com/Haripriya24071">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=900&size=40&duration=2500&pause=1000&color=F43F5E&center=true&vCenter=true&width=700&lines=R+HARI+PRIYA;USN%3A+25BTRCA046;BRANCH%3A+CSE+AI" alt="R HARI PRIYA Typing Animation" />
-</a>
-
 <br/><br/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STUDENT-R_HARI_PRIYA-FF3366?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/STUDENT-R_HARI_PRIYA-0284C7?style=for-the-badge&logo=github&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/USN-25BTRCA046-38BDF8?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/USN-25BTRCA046-0369A1?style=for-the-badge&logo=id&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/BRANCH-CSE_AI-4ADE80?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/BRANCH-CSE_AI-0EA5E9?style=for-the-badge&logo=openai&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/PYTHON-3.12-FACC15?style=for-the-badge&logo=python&logoColor=black" />
+  <img src="https://img.shields.io/badge/PYTHON-3.12-38BDF8?style=for-the-badge&logo=python&logoColor=black" />
 </p>
 
 ---
