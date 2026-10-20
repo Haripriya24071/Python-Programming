@@ -1,29 +1,25 @@
-# 1. Course enrollment set operations
-# Accept roll numbers enrolled in three courses as sets. Display students in all three courses, students in at least one course, students in exactly one course, students in course one but not course two, and the number of students taking exactly two courses.
+# 1. Course Enrollment Set Operations (Lab Test)
+course_1 = {101, 102, 103, 104}
+course_2 = {103, 104, 105, 106}
+course_3 = {101, 104, 107, 108}
 
-a = set()
-b = set()
-c = set()
+print("Course 1 roll numbers:", course_1)
+print("Course 2 roll numbers:", course_2)
+print("Course 3 roll numbers:", course_3)
+print("-" * 45)
 
-n = input("Enter course 1 roll numbers: ").split()
-for i in n:
-    a.add(int(i))
+all_three = course_1 & course_2 & course_3
+print("Students in all three courses:", all_three)
 
-n = input("Enter course 2 roll numbers: ").split()
-for i in n:
-    b.add(int(i))
+at_least_one = course_1 | course_2 | course_3
+print("Students in at least one course:", at_least_one)
 
-n = input("Enter course 3 roll numbers: ").split()
-for i in n:
-    c.add(int(i))
+c1_not_c2 = course_1 - course_2
+print("Students in Course 1 but not Course 2:", c1_not_c2)
 
-print("All three:", a & b & c)
-print("At least one:", a | b | c)
-print("Course 1 not course 2:", a - b)
+exactly_two = ((course_1 & course_2) | (course_2 & course_3) | (course_1 & course_3)) - all_three
+print("Students taking exactly two courses:", exactly_two)
+print("Number of students taking exactly two courses:", len(exactly_two))
 
-x = (a & b) | (b & c) | (a & c)
-x = x - (a & b & c)
-print("Exactly two:", len(x))
-
-x = (a - b - c) | (b - a - c) | (c - a - b)
-print("Exactly one:", x)
+exactly_one = (course_1 - course_2 - course_3) | (course_2 - course_1 - course_3) | (course_3 - course_1 - course_2)
+print("Students taking exactly one course:", exactly_one)
