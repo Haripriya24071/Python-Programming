@@ -2,17 +2,6 @@
 
 <img src="./header.svg" width="100%" alt="R HARI PRIYA Header" />
 
-<br/><br/>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STUDENT-R_HARI_PRIYA-0284C7?style=for-the-badge&logo=github&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/USN-25BTRCA046-0369A1?style=for-the-badge&logo=id&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/BRANCH-CSE_AI-0EA5E9?style=for-the-badge&logo=openai&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/PYTHON-3.12-38BDF8?style=for-the-badge&logo=python&logoColor=black" />
-</p>
 
 ---
 
