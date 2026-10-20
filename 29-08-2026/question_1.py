@@ -1,4 +1,5 @@
-# 1. Print multiplication table
-num = int(input("Enter a number: "))
+# 1. Multiplication Table
+num = 5
+print(f"Multiplication table of {num}:")
 for i in range(1, 11):
-    print(num, "x", i, "=", num * i)
+    print(f"{num} x {i} = {num * i}")
