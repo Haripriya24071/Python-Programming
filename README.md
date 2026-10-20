@@ -7,7 +7,7 @@
 
 </div>
 
-# 🐍 Python Programming Lab Coursework
+# Python Programming Lab Coursework
 
 Repository containing all lab assignments, exercises, and lab test solutions for the Python Programming course.
 
