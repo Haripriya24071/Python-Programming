@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+  <defs>
+    <!-- Animated Gradient for Name -->
+    <linearGradient id="animatedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3366">
+        <animate attributeName="stop-color" 
+          values="#FF3366;#BA27F5;#38BDF8;#4ADE80;#FACC15;#FF3366" 
+          dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="35%" stop-color="#BA27F5">
+        <animate attributeName="stop-color" 
+          values="#BA27F5;#38BDF8;#4ADE80;#FACC15;#FF3366;#BA27F5" 
+          dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="70%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" 
+          values="#38BDF8;#4ADE80;#FACC15;#FF3366;#BA27F5;#38BDF8" 
+          dur="7s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#4ADE80">
+        <animate attributeName="stop-color" 
+          values="#4ADE80;#FACC15;#FF3366;#BA27F5;#38BDF8;#4ADE80" 
+          dur="7s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#9333EA" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.025); }
+    }
+    @keyframes shine {
+      0% { opacity: 0.7; }
+      50% { opacity: 1; }
+      100% { opacity: 0.7; }
+    }
+    .card-bg {
+      fill: #0F172A;
+      stroke: url(#borderGrad);
+      stroke-width: 2.5;
+      rx: 20px;
+    }
+    .main-name {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-weight: 900;
+      font-size: 58px;
+      letter-spacing: 6px;
+      fill: url(#animatedGrad);
+      text-anchor: middle;
+      transform-origin: 450px 95px;
+      animation: pulse 4s ease-in-out infinite, shine 3s ease-in-out infinite;
+      filter: drop-shadow(0 0 12px rgba(186, 39, 245, 0.45));
+    }
+    .sub-badge-text {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      letter-spacing: 1.5px;
+      fill: #F8FAFC;
+      text-anchor: middle;
+    }
+    .badge-rect {
+      fill: #1E293B;
+      stroke: #334155;
+      stroke-width: 1.5;
+      rx: 10px;
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect x="10" y="10" width="880" height="220" class="card-bg" />
+
+  <!-- Animated Glowing Big Name -->
+  <text x="450" y="100" class="main-name">R HARI PRIYA</text>
+
+  <!-- Subtitle Tagline -->
+  <g transform="translate(0, 125)">
+    <!-- Badge 1: USN -->
+    <g transform="translate(200, 15)">
+      <rect x="0" y="0" width="230" height="42" class="badge-rect" />
+      <circle cx="22" cy="21" r="6" fill="#38BDF8">
+        <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="125" y="27" class="sub-badge-text">USN : 25BTRCA046</text>
+    </g>
+
+    <!-- Badge 2: BRANCH -->
+    <g transform="translate(470, 15)">
+      <rect x="0" y="0" width="230" height="42" class="badge-rect" />
+      <circle cx="22" cy="21" r="6" fill="#4ADE80">
+        <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="125" y="27" class="sub-badge-text">BRANCH : CSE AI</text>
+    </g>
+  </g>
+</svg>
