@@ -2,9 +2,12 @@
 a = 15
 b = 40
 c = 25
-largest = a
-if b > largest:
+
+if a >= b and a >= c:
+    largest = a
+elif b >= a and b >= c:
     largest = b
-if c > largest:
+else:
     largest = c
-print("Largest:", largest)
+
+print("Largest number is:", largest)
