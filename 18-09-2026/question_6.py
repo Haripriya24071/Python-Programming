@@ -1,6 +1,8 @@
-# 6. Count character frequency in a string.
-text = "python"
+# 6. Count Character Frequency in a String
+text = "python programming"
 freq = {}
 for char in text:
-    freq[char] = freq.get(char, 0) + 1
+    if char != " ":
+        freq[char] = freq.get(char, 0) + 1
+print("String:", text)
 print("Character frequency:", freq)
