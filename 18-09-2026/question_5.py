@@ -1,4 +1,4 @@
-# 5. Build a dictionary of 5 students and their marks.
+# 5. Dictionary of Students and Marks
 students = {
     "Alice": 85,
     "Bob": 90,
@@ -6,4 +6,6 @@ students = {
     "David": 92,
     "Emma": 88
 }
-print("Students and Marks:", students)
+print("Students and Marks:")
+for name, marks in students.items():
+    print(f"  {name}: {marks}")
