@@ -1,4 +1,4 @@
-# 4. Print star pattern - pyramid
+# 4. Pyramid Star Pattern
 rows = 5
 for i in range(1, rows + 1):
     print(" " * (rows - i) + "*" * (2 * i - 1))
