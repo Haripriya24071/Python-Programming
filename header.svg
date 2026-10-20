@@ -592,21 +592,8 @@
     <rect x="1516" y="112" width="28" height="16" fill="#FFFFFF" stroke="#080B11" stroke-width="1.2" rx="1.5" />
   </g>
 
-  <!-- ==================== SUBTITLE (REALLY BIG & MOVED DOWN NEAR LINE) ==================== -->
-  <!-- Magenta chromatic shadow -->
-  <text x="796.5" y="243" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="52" font-weight="900" letter-spacing="6" fill="#FF0055" opacity="0.95" text-anchor="middle">
-    USN : 25BTRCA046 , BRANCH : CSE AI
-  </text>
-  <!-- Cyan chromatic shadow -->
-  <text x="789.5" y="237" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="52" font-weight="900" letter-spacing="6" fill="#00FFFF" opacity="0.95" text-anchor="middle">
-    USN : 25BTRCA046 , BRANCH : CSE AI
-  </text>
-  <!-- Yellow trace shadow -->
-  <text x="794" y="244" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="52" font-weight="900" letter-spacing="6" fill="#FFE600" opacity="0.8" text-anchor="middle">
-    USN : 25BTRCA046 , BRANCH : CSE AI
-  </text>
-  <!-- Foreground Crisp White Text -->
-  <text x="793" y="240" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="52" font-weight="900" letter-spacing="6" fill="#FFFFFF" text-anchor="middle">
+  <!-- ==================== SUBTITLE (CLEAN NORMAL TEXT - NO EFFECTS) ==================== -->
+  <text x="793" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="44" font-weight="700" letter-spacing="4" fill="#FFFFFF" text-anchor="middle">
     USN : 25BTRCA046 , BRANCH : CSE AI
   </text>
 </svg>
