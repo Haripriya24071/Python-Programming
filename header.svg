@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1586 225" width="100%" height="225">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1586 290" width="100%" height="290">
   <!-- Flat Dark Background matching reference image -->
-  <rect width="1586" height="225" fill="#0A0D14" />
+  <rect width="1586" height="290" fill="#0A0D14" />
 
   <!-- ==================== CHROMATIC WIRE OUTLINES ==================== -->
 
@@ -592,17 +592,21 @@
     <rect x="1516" y="112" width="28" height="16" fill="#FFFFFF" stroke="#080B11" stroke-width="1.2" rx="1.5" />
   </g>
 
-  <!-- ==================== SUBTITLE (BIGGER & CHROMATIC GLITCH) ==================== -->
-  <!-- Magenta text shadow -->
-  <text x="795.5" y="182" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="30" font-weight="900" letter-spacing="5" fill="#FF0055" opacity="0.9" text-anchor="middle">
+  <!-- ==================== SUBTITLE (REALLY BIG & MOVED DOWN NEAR LINE) ==================== -->
+  <!-- Magenta chromatic shadow -->
+  <text x="796.5" y="243" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="52" font-weight="900" letter-spacing="6" fill="#FF0055" opacity="0.95" text-anchor="middle">
     USN : 25BTRCA046 , BRANCH : CSE AI
   </text>
-  <!-- Cyan text shadow -->
-  <text x="790.5" y="178.5" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="30" font-weight="900" letter-spacing="5" fill="#00FFFF" opacity="0.9" text-anchor="middle">
+  <!-- Cyan chromatic shadow -->
+  <text x="789.5" y="237" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="52" font-weight="900" letter-spacing="6" fill="#00FFFF" opacity="0.95" text-anchor="middle">
+    USN : 25BTRCA046 , BRANCH : CSE AI
+  </text>
+  <!-- Yellow trace shadow -->
+  <text x="794" y="244" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="52" font-weight="900" letter-spacing="6" fill="#FFE600" opacity="0.8" text-anchor="middle">
     USN : 25BTRCA046 , BRANCH : CSE AI
   </text>
   <!-- Foreground Crisp White Text -->
-  <text x="793" y="180" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="30" font-weight="900" letter-spacing="5" fill="#FFFFFF" text-anchor="middle">
+  <text x="793" y="240" font-family="'JetBrains Mono', 'Consolas', 'Courier New', monospace" font-size="52" font-weight="900" letter-spacing="6" fill="#FFFFFF" text-anchor="middle">
     USN : 25BTRCA046 , BRANCH : CSE AI
   </text>
 </svg>
