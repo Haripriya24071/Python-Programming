@@ -1,16 +1,42 @@
-# Python Programming Lab
+<div align="center">
 
-Repository containing Python programming lab coursework, practical exercises, and lab test solutions.
+<img src="./header.svg" width="100%" alt="R HARI PRIYA Header" />
+
+<br/>
+
+<a href="https://github.com/Haripriya24071">
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=900&size=40&duration=2500&pause=1000&color=F43F5E&center=true&vCenter=true&width=700&lines=R+HARI+PRIYA;USN%3A+25BTRCA046;BRANCH%3A+CSE+AI" alt="R HARI PRIYA Typing Animation" />
+</a>
+
+<br/><br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STUDENT-R_HARI_PRIYA-FF3366?style=for-the-badge&logo=github&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/USN-25BTRCA046-38BDF8?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/BRANCH-CSE_AI-4ADE80?style=for-the-badge&logo=openai&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/PYTHON-3.12-FACC15?style=for-the-badge&logo=python&logoColor=black" />
+</p>
 
 ---
 
-## Lab Work Overview (Arranged Chronologically)
+</div>
+
+# 🐍 Python Programming Lab Coursework
+
+Repository containing all lab assignments, exercises, and lab test solutions for the Python Programming course.
+
+---
+
+## 📑 Lab Work Index (Arranged Chronologically)
 
 ### 📅 August 2026
 
 #### 1. [`06-08-2026/`](./06-08-2026/) — Basic Python & Flow Control
-* **Jupyter Notebook:** [`labwork.ipynb`](./06-08-2026/labwork.ipynb)
-* **Questions:**
+* **Interactive Notebook:** [`labwork.ipynb`](./06-08-2026/labwork.ipynb)
+* **Question Scripts:**
   1. [`question_1.py`](./06-08-2026/question_1.py) - Hello World
   2. [`question_2.py`](./06-08-2026/question_2.py) - Add Two Numbers
   3. [`question_3.py`](./06-08-2026/question_3.py) - Largest of Three Numbers
@@ -23,8 +49,8 @@ Repository containing Python programming lab coursework, practical exercises, an
   10. [`question_10.py`](./06-08-2026/question_10.py) - Fibonacci Series
 
 #### 2. [`29-08-2026/`](./29-08-2026/) — Loops & Pattern Printing
-* **Jupyter Notebook:** [`labwork.ipynb`](./29-08-2026/labwork.ipynb)
-* **Questions:**
+* **Interactive Notebook:** [`labwork.ipynb`](./29-08-2026/labwork.ipynb)
+* **Question Scripts:**
   1. [`question_1.py`](./29-08-2026/question_1.py) - Multiplication Table
   2. [`question_2.py`](./29-08-2026/question_2.py) - Right Triangle Star Pattern
   3. [`question_3.py`](./29-08-2026/question_3.py) - Inverted Triangle Star Pattern
@@ -36,8 +62,8 @@ Repository containing Python programming lab coursework, practical exercises, an
 ### 📅 September 2026
 
 #### 3. [`11-09-2026/`](./11-09-2026/) — Lists, Tuples, and Sets
-* **Jupyter Notebook:** [`labwork.ipynb`](./11-09-2026/labwork.ipynb)
-* **Questions:**
+* **Interactive Notebook:** [`labwork.ipynb`](./11-09-2026/labwork.ipynb)
+* **Question Scripts:**
   1. [`question_1.py`](./11-09-2026/question_1.py) - Find Smallest Number in a List
   2. [`question_2.py`](./11-09-2026/question_2.py) - Find Average of Numbers in a List
   3. [`question_3.py`](./11-09-2026/question_3.py) - Count Occurrences of a Number in a List
@@ -50,8 +76,8 @@ Repository containing Python programming lab coursework, practical exercises, an
   10. [`question_10.py`](./11-09-2026/question_10.py) - Remove Duplicate Values from List Using Set
 
 #### 4. [`18-09-2026/`](./18-09-2026/) — Advanced Data Structures & Dictionaries
-* **Jupyter Notebook:** [`labwork.ipynb`](./18-09-2026/labwork.ipynb)
-* **Questions:**
+* **Interactive Notebook:** [`labwork.ipynb`](./18-09-2026/labwork.ipynb)
+* **Question Scripts:**
   1. [`question_1.py`](./18-09-2026/question_1.py) - Print Even Numbers in a List
   2. [`question_2.py`](./18-09-2026/question_2.py) - Find Second-Largest Value in a List
   3. [`question_3.py`](./18-09-2026/question_3.py) - Unpack a Tuple of Subjects
@@ -64,13 +90,12 @@ Repository containing Python programming lab coursework, practical exercises, an
 ### 📅 October 2026
 
 #### 5. [`09-10-2026/`](./09-10-2026/) — Lab Test: Set Operations
-* **Jupyter Notebook:** [`labwork.ipynb`](./09-10-2026/labwork.ipynb)
-* **Questions:**
+* **Interactive Notebook:** [`labwork.ipynb`](./09-10-2026/labwork.ipynb)
+* **Question Script:**
   1. [`question_1.py`](./09-10-2026/question_1.py) - Course Enrollment Set Operations (All 3, At least 1, Course 1 not 2, Exactly 2, Exactly 1)
 
 ---
 
-## Structure
-Every lab directory includes:
-* `labwork.ipynb` - Single interactive notebook containing all questions and pre-computed execution outputs.
-* Individual Python scripts (`question_1.py`, `question_2.py`, etc.) for each question.
+## 🛠️ Repository Details
+* Each lab directory contains a unified `labwork.ipynb` with complete pre-computed cell outputs.
+* Individual Python scripts (`question_1.py`, etc.) are included for direct terminal execution.
