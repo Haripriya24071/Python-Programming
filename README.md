@@ -79,6 +79,21 @@ Repository containing all lab assignments, exercises, and lab test solutions for
 
 ---
 
+### 📅 November 2026
+
+#### 6. [`06-11-2026/`](./06-11-2026/) — Functional Programming (`map`, `filter`, and `lambda`)
+* **Interactive Notebook:** [`labwork.ipynb`](./06-11-2026/labwork.ipynb)
+* **Question Scripts:**
+  1. [`question_1.py`](./06-11-2026/question_1.py) - Even Numbers, Squares, and Filter Squares > 100
+  2. [`question_2.py`](./06-11-2026/question_2.py) - Extract Strings Length > 3 and Convert to Uppercase
+  3. [`question_3.py`](./06-11-2026/question_3.py) - Numbers Divisible by 2 or 3 and Their Squares
+  4. [`question_4.py`](./06-11-2026/question_4.py) - Add 10 to Every Element and Filter Elements > 30
+  5. [`question_5.py`](./06-11-2026/question_5.py) - Extract Negative Numbers and Convert to Absolute Values
+  6. [`question_6.py`](./06-11-2026/question_6.py) - Words Ending with 'n' and Calculate Their Lengths
+  7. [`question_7.py`](./06-11-2026/question_7.py) - Extract Perfect Square Numbers from List
+
+---
+
 ## 🛠️ Repository Details
 * Each lab directory contains a unified `labwork.ipynb` with complete pre-computed cell outputs.
 * Individual Python scripts (`question_1.py`, etc.) are included for direct terminal execution.
